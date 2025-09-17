@@ -237,7 +237,7 @@ function App() {
 
   return (
     <div className='w-full px-10 py-10 flex gap-20'>
-      <div className='w-60 h-full flex flex-col gap-2 items-center'>
+      <div className='w-90 h-full flex flex-col gap-2 items-center'>
         <div>Criar curso</div>
         <Input value={name} onChange={(event) => setName(event.target.value)} placeholder='Nome do curso' />
         <Input value={workload} onChange={(event) => setWorkload(Math.floor(Number(event.target.value)))} type='number' placeholder='Carga horária' />
